@@ -17,5 +17,12 @@
         "psr-4": {
             "B2B\\Enum\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "B2B\\Enum\\ServiceProvider"
+            ]
+        }
     }
 }
